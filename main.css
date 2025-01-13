@@ -10,3 +10,4 @@ input::placeholder{color:white;}
 button{font-family: 'Custom'; background-color:hsla(0, 0%, 0%, 0.5); color:white;}
 a{text-decoration: none; color:white;}
 #random{background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
+table{background-image: url('Map.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
