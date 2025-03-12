@@ -8,3 +8,10 @@ a{text-decoration: none; color:white;}
 #USA{background: url("star.png") repeat-y 99.8%, linear-gradient(270deg, blue 20px, white  20px 40px, red 40px 60px, hsla(0, 0%, 0%, 0) 60px 80px);}
 html{cursor: crosshair;}
 #map1{background-image: url('map1.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto;}
+#map2{background-image: url('map2.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto;}
+#map3{background-image: url('map3.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto;}
+#map4{background-image: url('map4.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto;}
+#map5{background-image: url('map5.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto;}
+#map6{background-image: url('map6.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto;}
+#map7{background-image: url('map7.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto;}
+#map8{background-image: url('map8.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto;}
