@@ -1,11 +1,13 @@
-ul{list-style-type: none; background-color:hsla(0, 0%, 0%, 0.5); color:white;}
+ul{list-style-type: none; background-color:hsla(0, 0%, 0%, 0.5); color:white; transform: translateX(-100%); -webkit-transform: translateX(-100%); animation: slide-in 0.5s forwards; -webkit-animation: slide-in 0.5s forwards;}
 body{font-family: 'Custom'; background-color: black;}
-h1{background-color:hsla(0, 0%, 0%, 0.5); color:white;}
-p{background-color:hsla(0, 0%, 0%, 0.5); color:white;}
+h1{background-color:hsla(0, 0%, 0%, 0.5); color:white; transform: translateX(-100%); -webkit-transform: translateX(-100%); animation: slide-in 0.5s forwards; -webkit-animation: slide-in 0.5s forwards;}
+p{background-color:hsla(0, 0%, 0%, 0.5); color:white; transform: translateX(-100%); -webkit-transform: translateX(-100%); animation: slide-in 0.5s forwards; -webkit-animation: slide-in 0.5s forwards;}
 @font-face {font-family: 'Custom'; src: url('Kabel\ Bold.ttf');}
 a{text-decoration: none; color:white;}
 #random{background-repeat: no-repeat; background-attachment: fixed; background-size: cover;}
 #USA{background: url("star.png") repeat-y 99.8%, linear-gradient(270deg, blue 20px, white  20px 40px, red 40px 60px, hsla(0, 0%, 0%, 0) 60px 80px);}
 html{cursor: crosshair;}
-#map1{background-image: url('map1.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto;}
-#map2{background-image: url('map2.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto;}
+#map1{background-image: url('map1.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto; transform: translateX(-100%); -webkit-transform: translateX(-100%); animation: slide-in 0.5s forwards; -webkit-animation: slide-in 0.5s forwards;}
+#map2{background-image: url('map2.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto; transform: translateX(-100%); -webkit-transform: translateX(-100%); animation: slide-in 0.5s forwards; -webkit-animation: slide-in 0.5s forwards;}
+@keyframes slide-in {100%{transform: translateX(0%);}}
+@-webkit-keyframes slide-in {100%{-webkit-transform: translateX(0%);}}
