@@ -1,0 +1,1 @@
+var x = 1; function switchImg() {if (x == 1) {document.getElementById("imgToSwitch").src = "34 Ring Toss TP.png"; x++;} else if (x == 2) {document.getElementById("imgToSwitch").src = "35 Target Practice TP.png"; x++;} else if (x == 3) {document.getElementById("imgToSwitch").src = "7 Jump For The Stars TP.png"; x = 1;}}
