@@ -9,5 +9,6 @@ a{text-decoration: none; color:white;}
 html{cursor: crosshair; scroll-behavior: smooth;}
 #map1{background-image: url('map1.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto; transform: translateX(-100%); -webkit-transform: translateX(-100%); animation: slide-in 0.5s forwards; -webkit-animation: slide-in 0.5s forwards;}
 #map2{background-image: url('map2.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: auto; transform: translateX(-100%); -webkit-transform: translateX(-100%); animation: slide-in 0.5s forwards; -webkit-animation: slide-in 0.5s forwards;}
+#map3{background-image: url('map3.png'); background-repeat: repeat; background-attachment: fixed; background-size: auto; transform: translateX(-100%); -webkit-transform: translateX(-100%); animation: slide-in 0.5s forwards; -webkit-animation: slide-in 0.5s forwards;}
 @keyframes slide-in {100%{transform: translateX(0%);}}
 @-webkit-keyframes slide-in {100%{-webkit-transform: translateX(0%);}}
