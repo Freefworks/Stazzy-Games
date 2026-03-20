@@ -57,5 +57,6 @@ var sites = [
 'game-56.html',
 'game-57.html',
 'game-58.html',
-'game-59.html'
+'game-59.html',
+'game-60.html'
 ]; function randomSite() {var i = parseInt(Math.random() * sites.length); location.href = sites[i];}
