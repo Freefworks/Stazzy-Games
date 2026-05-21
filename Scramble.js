@@ -1,0 +1,4 @@
+function scrambleText() {const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false); const textNodes = []; let node; while ((node = walker.nextNode())) {if (node.nodeValue.trim() !== '' && !['SCRIPT', 'STYLE'].includes(node.parentNode.tagName)) {textNodes.push(node);}}
+function shuffleArray(array) {const arr = [...array]; for (let i = arr.length - 1; i > 0; i--) {const j = Math.floor(Math.random() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]];}return arr;}
+textNodes.forEach(textNode => {const chars = textNode.nodeValue.split(''); textNode.nodeValue = shuffleArray(chars).join('');});}
+document.getElementById('egg').addEventListener('click', scrambleText);   
